@@ -49,16 +49,20 @@
 
   html{
     height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
 .logo {
     position: relative;
     float: left;
+    margin-left: 25px;
     padding-top: 10px;
     color: #707070;
     text-align: center;
     transform: translate(0%, 0%);
     transition: 0.5s;
+    margin-right: 500px;
 }
 
 .logo a {
@@ -122,15 +126,18 @@
   }
    
   nav {
-    margin-left: 800px;
-    font-size: 16px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    justify-content: flex-end;
+    font-size: 20px;
     padding-top: 40px;
     padding-bottom: 30px;
     color: grey;
     }
   nav a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 20px;
     padding-bottom: 5px;
     color: grey
@@ -156,85 +163,82 @@ p {
    color:#707070;
    font-size: 25px;
 }
+.link a {
+  text-align: center;
+ color:#707070;
+ font-size: 25px;
+}
 img {
     width: 1375px;
     height: auto;
 }
 footer {
-    background-color: #EFEDED;   
-    text-align: center;
-    padding-top: 75px;
-    padding-bottom: 50px; 
-    
-    }
-  
-footer a {
-    text-decoration: none;
-    display: inline;
-    color: #707070;
-    margin: 50px;
-    font-size: 16px;
+  background-color: white;  
+  padding: 10%;
+  width: 1100px;
   }
 
-footer {
-    background: #EFEDED;
+footer a {
+  text-decoration: none;
+  color: #707070;
+  text-align: center;
 }
+
 .footer {
-    padding: 50px;
-    position: relative;
-    margin-left: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  padding: 20px;
+  position: relative;
+  margin-left: 18%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .footer div {
-    list-style: none;
+  list-style: none;
 }
 .footer div a {
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
-    margin: 0 10px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: 5px solid #707070;
-    float: left;
-    margin-right: 60px;
+  width: 75px;
+  height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #707070;
+  float: left;
+  margin-right: 60px;
 }
 .footer div a .fa {
-    color: #707070;
-    margin-top: 20px;
+  color: #707070;
+  margin-top: 20px;
 }
 .footer div a:hover:nth-child(1) {
-    border: 5px solid #FCC863;
-    box-shadow: 0 0 15px #FCC863;
-    transition: all 0.5s ease;
+  border: 5px solid #0a66c2;
+  box-shadow: 0 0 15px #0a66c2;
+  transition: all 0.5s ease;
 }
 .footer div a:hover .fa-linkedin {
-    color: #FCC863;
-    text-shadow: 0 0 15px #FCC863;
-    transition: all 0.5s ease;
+  color: #0a66c2;
+  text-shadow: 0 0 15px #0a66c2;
+  transition: all 0.5s ease;
 }
 
 .footer div a:hover:nth-child(2) {
-    border: 5px solid #B5DFCE;
-    box-shadow: 0 0 15px #B5DFCE;
-    transition: all 0.5s ease;
+  border: 5px solid #db4437;
+  box-shadow: 0 0 15px #db4437;
+  transition: all 0.5s ease;
 }
 .footer div a:hover .fa-envelope {
-    color: #B5DFCE;
-    text-shadow: 0 0 15px #B5DFCE;
-    transition: all 0.5s ease;
+  color: #db4437;
+  text-shadow: 0 0 15px #db4437;
+  transition: all 0.5s ease;
 }
 
 .footer div a:hover:nth-child(3) {
-    border: 5px solid #C35537;
-    box-shadow: 0 0 15px #C35537;
-    transition: all 0.5s ease;
+  border: 5px solid #6e5494;
+  box-shadow: 0 0 15px #6e5494;
+  transition: all 0.5s ease;
 }
 .footer div a:hover .fa-github {
-    color: #C35537;
-    text-shadow: 0 0 15px #C35537;
-    transition: all 0.5s ease;
+  color: #6e5494;
+  text-shadow: 0 0 15px #6e5494;
+  transition: all 0.5s ease;
 }
