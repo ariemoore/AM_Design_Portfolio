@@ -14,6 +14,7 @@ html{
     transform: translate(0%, 0%);
     transition: 0.5s;
     margin-right: 500px;
+    transition: 0.75s;
 }
 
 .logo a {
@@ -84,7 +85,7 @@ a.middle:hover:after {
     width: 1200px;
     text-align: right;
     transform: translate(0%, 0%);
-    transition: 0.5s;
+    transition: 0.75s;
   }
   
   header {  
@@ -115,7 +116,6 @@ a.middle:hover:after {
   nav a:hover {
     border-bottom: 1px solid #707070;
 }
-    
 
 main { 
     display: flex;
@@ -132,7 +132,7 @@ h1 {
     margin-left: 70px;
     margin-top: 70px;
     transform: translate(0%, 0%);
-    transition: 0.5s;
+    transition: 0.75s;
 }
 p {
     font-size: 30px;
@@ -157,7 +157,7 @@ h3 {
     width: 550px;
     margin-top: 40px;
     transform: translate(0%, 0%);
-    transition: 0.5s;
+    transition: 0.75s;
 }
 .container {
     display: flex;
